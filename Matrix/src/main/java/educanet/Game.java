@@ -12,10 +12,10 @@ import java.nio.IntBuffer;
 public class Game {
 
     private static final float[] vertices = {
-            0.5f, 0.5f, 0.0f, // 0 -> Top right
-            0.5f, -0.5f, 0.0f, // 1 -> Bottom right
-            -0.5f, -0.5f, 0.0f, // 2 -> Bottom left
-            -0.5f, 0.5f, 0.0f, // 3 -> Top left
+            0.3f, 0.3f, 0.0f, // 0 -> Top right
+            0.3f, -0.3f, 0.0f, // 1 -> Bottom right
+            -0.3f, -0.3f, 0.0f, // 2 -> Bottom left
+            -0.3f, 0.3f, 0.0f, // 3 -> Top left
     };
 
     private static final float[] colors = {
